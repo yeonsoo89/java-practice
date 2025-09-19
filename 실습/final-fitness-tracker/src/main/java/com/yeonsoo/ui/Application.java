@@ -189,11 +189,7 @@ public class Application {
 
 
     public static void main(String[] args) {
-        try {
-            new Application().run();
-        } catch (Exception e) {
-            e.printStackTrace(); // 여기에 추가
-        }
+        new Application().run();
     }
 
 }
